@@ -51,7 +51,7 @@ export default {
     // Serve static assets via the built-in asset binding
     const response = await env.ASSETS.fetch(request);
 
-    // Clone response and add security headers
+    // Clone response and add security headers + debug marker
     const secured = new Response(response.body, response);
     for (const [key, value] of Object.entries(SECURITY_HEADERS)) {
       secured.headers.set(key, value);
