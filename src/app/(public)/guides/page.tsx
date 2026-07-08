@@ -17,7 +17,7 @@ export default function GuidesPage() {
           Guides
         </h1>
         <p className="text-zinc-400 text-lg leading-relaxed">
-          Comprehensive guides to help you get the most out of GhostOps. From getting started tutorials to advanced workflows, our guides cover everything you need to master AI-powered content creation.
+          Comprehensive guides to help you get the most out of InkFleet. From getting started tutorials to advanced workflows, our guides cover everything you need to master AI-powered content creation.
         </p>
         <div className="pt-4">
           <Link

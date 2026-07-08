@@ -3,7 +3,7 @@
 import { useState } from "react";
 import Link from "next/link";
 import { motion, AnimatePresence } from "framer-motion";
-import { Ghost, Mail, ArrowLeft, CheckCircle2 } from "lucide-react";
+import { Feather, Mail, ArrowLeft, CheckCircle2 } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
@@ -38,10 +38,10 @@ export default function ForgotPasswordPage() {
           className="mb-6 flex flex-col items-center"
         >
           <div className="mb-3 flex h-12 w-12 items-center justify-center rounded-xl bg-violet-600/10 ring-1 ring-violet-500/20">
-            <Ghost className="h-6 w-6 text-violet-400" />
+            <Feather className="h-6 w-6 text-violet-400" />
           </div>
           <h1 className="text-xl font-bold tracking-tight text-white">
-            GhostOps
+            InkFleet
           </h1>
         </motion.div>
 

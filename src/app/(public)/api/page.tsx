@@ -17,7 +17,7 @@ export default function APIDocumentationPage() {
           API Documentation
         </h1>
         <p className="text-zinc-400 text-lg leading-relaxed">
-          Build powerful integrations with the GhostOps API. Access our comprehensive REST API to programmatically create, manage, and publish content. Full documentation with code examples and SDKs available.
+          Build powerful integrations with the InkFleet API. Access our comprehensive REST API to programmatically create, manage, and publish content. Full documentation with code examples and SDKs available.
         </p>
         <div className="pt-4">
           <Link

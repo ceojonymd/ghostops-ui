@@ -17,7 +17,7 @@ export default function RequestaDemoPage() {
           Request a Demo
         </h1>
         <p className="text-zinc-400 text-lg leading-relaxed">
-          See GhostOps in action. Our team will walk you through the full platform capabilities including AI content generation, SEO optimization, multi-channel publishing, and team collaboration features. Schedule your personalized demo today.
+          See InkFleet in action. Our team will walk you through the full platform capabilities including AI content generation, SEO optimization, multi-channel publishing, and team collaboration features. Schedule your personalized demo today.
         </p>
         <div className="pt-4">
           <Link

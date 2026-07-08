@@ -229,7 +229,7 @@ function QuickStartContent() {
         Quick Start Guide
       </motion.h1>
       <p className="text-lg text-zinc-400 mb-10 leading-relaxed">
-        Get up and running with GhostOps in under 5 minutes.
+        Get up and running with InkFleet in under 5 minutes.
       </p>
 
       {/* Prerequisites */}
@@ -240,7 +240,7 @@ function QuickStartContent() {
         <li className="flex items-start gap-2">
           <span className="mt-2 h-1.5 w-1.5 rounded-full bg-violet-500 shrink-0" />
           <span>
-            A GhostOps account &mdash;{" "}
+            A InkFleet account &mdash;{" "}
             <span className="text-violet-400 hover:text-violet-300 cursor-pointer underline underline-offset-2">
               sign up for free
             </span>
@@ -332,7 +332,7 @@ function QuickStartContent() {
             {"    "}
             <span className="text-violet-400">&quot;model&quot;</span>
             <span className="text-zinc-500">:</span>{" "}
-            <span className="text-emerald-400">&quot;ghostops-v2&quot;</span>
+            <span className="text-emerald-400">&quot;inkfleet-v1&quot;</span>
             <span className="text-zinc-500">,</span>
             {"\n"}
             {"    "}
@@ -356,7 +356,7 @@ function QuickStartContent() {
         Step 2: Generate Your First Article
       </h2>
       <p className="text-zinc-400 mb-4 leading-relaxed">
-        Navigate to <strong className="text-zinc-200 font-medium">AI Writer</strong> and enter your topic. GhostOps
+        Navigate to <strong className="text-zinc-200 font-medium">AI Writer</strong> and enter your topic. InkFleet
         will generate a complete, SEO-optimized article in seconds. You can also use the SDK:
       </p>
 
@@ -366,9 +366,9 @@ function QuickStartContent() {
         code={
           <>
             <span className="text-violet-400">import</span>
-            <span className="text-zinc-300">{" { GhostOps } "}</span>
+            <span className="text-zinc-300">{" { InkFleet } "}</span>
             <span className="text-violet-400">from</span>{" "}
-            <span className="text-emerald-400">&apos;@ghostops/sdk&apos;</span>
+            <span className="text-emerald-400">&apos;@inkfleet/sdk&apos;</span>
             <span className="text-zinc-500">;</span>
             {"\n\n"}
             <span className="text-zinc-500">{"// Initialize the client"}</span>
@@ -377,7 +377,7 @@ function QuickStartContent() {
             <span className="text-zinc-300">client</span>{" "}
             <span className="text-zinc-500">=</span>{" "}
             <span className="text-violet-400">new</span>{" "}
-            <span className="text-sky-400">GhostOps</span>
+            <span className="text-sky-400">InkFleet</span>
             <span className="text-zinc-300">({"{"}</span>
             {"\n"}
             {"  "}
@@ -471,7 +471,7 @@ function QuickStartContent() {
       </h2>
       <p className="text-zinc-400 mb-4 leading-relaxed">
         Your article is automatically analyzed for SEO. Check the SEO panel on the right side of the
-        editor for real-time scoring and actionable suggestions. GhostOps evaluates:
+        editor for real-time scoring and actionable suggestions. InkFleet evaluates:
       </p>
       <ul className="space-y-2 text-zinc-400 mb-6 pl-1">
         <li className="flex items-start gap-2">
@@ -499,7 +499,7 @@ function QuickStartContent() {
       <div className="rounded-xl border border-violet-500/20 bg-violet-500/[0.05] px-5 py-4 mb-8">
         <p className="text-sm text-violet-300 leading-relaxed">
           <strong className="text-violet-200">Tip:</strong> Aim for an SEO score above 85 before
-          publishing. GhostOps will highlight exactly what to improve and can auto-fix most issues
+          publishing. InkFleet will highlight exactly what to improve and can auto-fix most issues
           with a single click.
         </p>
       </div>
@@ -520,7 +520,7 @@ function QuickStartContent() {
         across all connected channels simultaneously.
       </p>
       <p className="text-zinc-400 mb-8 leading-relaxed">
-        GhostOps supports one-click publishing to WordPress, Shopify, Medium, and custom webhooks.
+        InkFleet supports one-click publishing to WordPress, Shopify, Medium, and custom webhooks.
         Each platform receives optimized formatting and metadata automatically.
       </p>
 
@@ -545,7 +545,7 @@ function QuickStartContent() {
             {"\n"}
             <span className="text-sky-400">curl</span>
             <span className="text-zinc-300"> -X POST </span>
-            <span className="text-emerald-400">https://api.ghostops.dev/v1/articles/generate</span>
+            <span className="text-emerald-400">https://api.inkfleet.com/v1/articles/generate</span>
             <span className="text-zinc-300"> \</span>
             {"\n"}
             {"  "}
@@ -594,7 +594,7 @@ function QuickStartContent() {
             <span className="text-violet-400">await</span>{" "}
             <span className="text-sky-400">fetch</span>
             <span className="text-zinc-300">(</span>
-            <span className="text-emerald-400">&apos;https://api.ghostops.dev/v1/articles/generate&apos;</span>
+            <span className="text-emerald-400">&apos;https://api.inkfleet.com/v1/articles/generate&apos;</span>
             <span className="text-zinc-500">,</span>{" "}
             <span className="text-zinc-300">{"{"}</span>
             {"\n"}

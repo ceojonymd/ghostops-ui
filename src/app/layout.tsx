@@ -6,7 +6,7 @@ import { Providers } from "./providers"
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter" })
 
 export const metadata: Metadata = {
-  title: "GhostOps — AI-First Publishing Platform",
+  title: "InkFleet — AI-First Publishing Platform",
   description:
     "The AI-powered content publishing platform for modern creators. Generate, optimize, and publish content at scale.",
   keywords: [
@@ -26,6 +26,7 @@ export default function RootLayout({
     <html lang="en" suppressHydrationWarning>
       <body className={`${inter.variable} font-sans antialiased`}>
         <Providers>{children}</Providers>
+        
       </body>
     </html>
   )

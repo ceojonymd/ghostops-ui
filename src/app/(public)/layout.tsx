@@ -4,7 +4,7 @@ import { useState, useEffect } from "react";
 import Link from "next/link";
 import { motion, AnimatePresence } from "framer-motion";
 import {
-  Ghost,
+  Feather,
   Sparkles,
   Menu,
   X,
@@ -95,7 +95,7 @@ export default function PublicLayout({
     <div className="min-h-screen flex flex-col bg-zinc-950 text-zinc-100">
       {/* Navbar */}
       <motion.header
-        initial={{ y: -100, opacity: 0 }}
+        initial={{ y: 0, opacity: 1 }}
         animate={{ y: 0, opacity: 1 }}
         transition={{ duration: 0.6, ease: "easeOut" }}
         className={cn(
@@ -109,12 +109,12 @@ export default function PublicLayout({
           {/* Logo */}
           <Link href="/" className="flex items-center gap-2 group">
             <div className="relative">
-              <Ghost className="h-7 w-7 text-violet-500 transition-transform duration-300 group-hover:scale-110" />
+              <Feather className="h-7 w-7 text-violet-500 transition-transform duration-300 group-hover:scale-110" />
               <Sparkles className="absolute -top-1 -right-1 h-3 w-3 text-violet-400 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
             </div>
             <span className="text-xl font-bold tracking-tight">
-              Ghost
-              <span className="text-violet-500">Ops</span>
+              Ink
+              <span className="text-violet-500">Fleet</span>
             </span>
           </Link>
 
@@ -168,7 +168,7 @@ export default function PublicLayout({
         <AnimatePresence>
           {mobileMenuOpen && (
             <motion.div
-              initial={{ opacity: 0, height: 0 }}
+              initial={{ opacity: 1, height: "auto" }}
               animate={{ opacity: 1, height: "auto" }}
               exit={{ opacity: 0, height: 0 }}
               transition={{ duration: 0.3, ease: "easeInOut" }}
@@ -227,15 +227,15 @@ export default function PublicLayout({
             {/* Brand Column */}
             <div className="lg:col-span-2 space-y-4">
               <Link href="/" className="flex items-center gap-2 group">
-                <Ghost className="h-7 w-7 text-violet-500" />
+                <Feather className="h-7 w-7 text-violet-500" />
                 <span className="text-xl font-bold tracking-tight">
-                  Ghost
-                  <span className="text-violet-500">Ops</span>
+                  Ink
+                  <span className="text-violet-500">Fleet</span>
                 </span>
               </Link>
               <p className="text-sm text-zinc-500 leading-relaxed max-w-xs">
-                Invisible infrastructure for modern teams. Deploy, monitor, and
-                scale your operations with zero friction.
+                AI-powered publishing platform. Create, optimize, and
+                publish content at scale with one dashboard.
               </p>
 
               {/* Newsletter */}
@@ -290,7 +290,7 @@ export default function PublicLayout({
           {/* Footer Bottom */}
           <div className="flex flex-col items-center gap-4 border-t border-white/[0.06] py-6 sm:flex-row sm:justify-between">
             <p className="text-sm text-zinc-600">
-              &copy; 2025 GhostOps. All rights reserved.
+              &copy; 2025 InkFleet. All rights reserved.
             </p>
             <div className="flex items-center gap-4">
               {socialLinks.map((social) => (

@@ -17,7 +17,7 @@ export default function SystemStatusPage() {
           System Status
         </h1>
         <p className="text-zinc-400 text-lg leading-relaxed">
-          Check the current operational status of all GhostOps services. We maintain high availability across our platform and provide real-time updates on any service disruptions or scheduled maintenance.
+          Check the current operational status of all InkFleet services. We maintain high availability across our platform and provide real-time updates on any service disruptions or scheduled maintenance.
         </p>
         <div className="pt-4">
           <Link

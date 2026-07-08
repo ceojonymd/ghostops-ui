@@ -17,7 +17,7 @@ export default function TermsofServicePage() {
           Terms of Service
         </h1>
         <p className="text-zinc-400 text-lg leading-relaxed">
-          These terms govern your use of the GhostOps platform. By accessing or using our services, you agree to be bound by these terms. Please review them carefully before using any features of the platform.
+          These terms govern your use of the InkFleet platform. By accessing or using our services, you agree to be bound by these terms. Please review them carefully before using any features of the platform.
         </p>
         <div className="pt-4">
           <Link

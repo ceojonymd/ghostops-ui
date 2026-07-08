@@ -156,7 +156,7 @@ export default function AdminUsersPage() {
     const url = URL.createObjectURL(blob);
     const link = document.createElement("a");
     link.href = url;
-    link.download = "ghostops_users_export.csv";
+    link.download = "inkfleet_users_export.csv";
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);

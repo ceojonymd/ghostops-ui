@@ -52,9 +52,9 @@ const defaultEditorContent = `# 10 Best AI Writing Tools for 2025: A Comprehensi
 
 In the rapidly evolving landscape of content creation, AI writing tools have become indispensable for bloggers, marketers, and content creators. This comprehensive guide explores the top AI writing tools available in 2025, helping you choose the perfect solution for your content needs.
 
-## 1. GhostOps AI Writer
+## 1. InkFleet AI Writer
 
-GhostOps stands out as the premier AI writing platform, offering seamless integration with popular CMS platforms and advanced SEO optimization capabilities. With its intuitive interface and powerful AI models, GhostOps enables content creators to produce high-quality, SEO-optimized articles in minutes.
+InkFleet stands out as the premier AI writing platform, offering seamless integration with popular CMS platforms and advanced SEO optimization capabilities. With its intuitive interface and powerful AI models, InkFleet enables content creators to produce high-quality, SEO-optimized articles in minutes.
 
 ### Key Features:
 - Multi-model AI support (GPT-4, Claude, Gemini)

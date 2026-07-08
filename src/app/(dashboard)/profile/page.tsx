@@ -130,7 +130,7 @@ const activityHistory = [
 export default function ProfilePage() {
   const [fullName, setFullName] = useState("Sarah Chen");
   const [bio, setBio] = useState(
-    "Senior Content Strategist and AI enthusiast. Leading the content team at GhostOps to create high-quality, SEO-optimized articles at scale."
+    "Senior Content Strategist and AI enthusiast. Leading the content team at InkFleet to create high-quality, SEO-optimized articles at scale."
   );
   const [website, setWebsite] = useState("https://sarahchen.dev");
   const [deleteDialogOpen, setDeleteDialogOpen] = useState(false);
@@ -190,7 +190,7 @@ export default function ProfilePage() {
                 </Badge>
               </div>
               <div className="mt-1 flex items-center gap-1.5 text-sm text-muted-foreground">
-                <span>sarah@ghostops.ai</span>
+                <span>sarah@inkfleet.com</span>
                 <CheckCircle className="h-4 w-4 text-emerald-500" />
               </div>
             </div>
@@ -228,7 +228,7 @@ export default function ProfilePage() {
               <div className="relative">
                 <Input
                   id="email"
-                  value="sarah@ghostops.ai"
+                  value="sarah@inkfleet.com"
                   disabled
                   className="pr-24"
                 />

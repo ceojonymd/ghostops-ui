@@ -17,7 +17,7 @@ export default function HelpCenterPage() {
           Help Center
         </h1>
         <p className="text-zinc-400 text-lg leading-relaxed">
-          Get the support you need with GhostOps. Browse our knowledge base, submit support tickets, or connect with our team for personalized assistance with any aspect of the platform.
+          Get the support you need with InkFleet. Browse our knowledge base, submit support tickets, or connect with our team for personalized assistance with any aspect of the platform.
         </p>
         <div className="pt-4">
           <Link

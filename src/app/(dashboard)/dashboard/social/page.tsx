@@ -98,7 +98,7 @@ const initialAccounts: SocialAccount[] = [
     platform: "Twitter / X",
     icon: null,
     iconLabel: "X",
-    handle: "@ghostops",
+    handle: "@inkfleet",
     followers: "24.5K",
     connected: true,
     color: "text-zinc-900 dark:text-zinc-100",
@@ -108,7 +108,7 @@ const initialAccounts: SocialAccount[] = [
     id: "linkedin",
     platform: "LinkedIn",
     icon: Briefcase,
-    handle: "GhostOps AI",
+    handle: "InkFleet AI",
     followers: "18.2K",
     connected: true,
     color: "text-blue-600",
@@ -118,7 +118,7 @@ const initialAccounts: SocialAccount[] = [
     id: "facebook",
     platform: "Facebook",
     icon: Users,
-    handle: "GhostOps",
+    handle: "InkFleet",
     followers: "32.1K",
     connected: false,
     color: "text-blue-500",
@@ -128,7 +128,7 @@ const initialAccounts: SocialAccount[] = [
     id: "instagram",
     platform: "Instagram",
     icon: Camera,
-    handle: "@ghostops.ai",
+    handle: "@inkfleet.com",
     followers: "15.8K",
     connected: false,
     color: "text-pink-500",
@@ -352,9 +352,9 @@ export default function SocialPage() {
                     </div>
                     <div className="min-w-0 flex-1">
                       <div className="flex items-center gap-1.5">
-                        <span className="font-semibold text-sm">GhostOps</span>
+                        <span className="font-semibold text-sm">InkFleet</span>
                         <span className="text-xs text-muted-foreground">
-                          @ghostops
+                          @inkfleet
                         </span>
                       </div>
                       <p className="text-sm mt-1 whitespace-pre-wrap break-words">
@@ -395,7 +395,7 @@ export default function SocialPage() {
                       G
                     </div>
                     <div>
-                      <p className="font-semibold text-sm">GhostOps AI</p>
+                      <p className="font-semibold text-sm">InkFleet AI</p>
                       <p className="text-xs text-muted-foreground">
                         AI-Powered Content Platform &middot; 18,200 followers
                       </p>
@@ -433,7 +433,7 @@ export default function SocialPage() {
                       G
                     </div>
                     <div>
-                      <p className="font-semibold text-sm">GhostOps</p>
+                      <p className="font-semibold text-sm">InkFleet</p>
                       <p className="text-xs text-muted-foreground">Just now</p>
                     </div>
                   </div>
@@ -469,7 +469,7 @@ export default function SocialPage() {
                     <div className="h-8 w-8 rounded-full bg-gradient-to-br from-pink-500 via-red-500 to-yellow-500 flex items-center justify-center text-white text-xs font-bold shrink-0">
                       G
                     </div>
-                    <span className="font-semibold text-sm">ghostops.ai</span>
+                    <span className="font-semibold text-sm">inkfleet.com</span>
                   </div>
                   {/* Image placeholder */}
                   <div className="w-full aspect-square bg-muted flex items-center justify-center">
@@ -486,7 +486,7 @@ export default function SocialPage() {
                       <Send className="h-5 w-5 cursor-pointer hover:text-foreground transition-colors" />
                     </div>
                     <p className="text-sm">
-                      <span className="font-semibold">ghostops.ai</span>{" "}
+                      <span className="font-semibold">inkfleet.com</span>{" "}
                       <span className="whitespace-pre-wrap break-words">
                         {postContent || (
                           <span className="text-muted-foreground italic">

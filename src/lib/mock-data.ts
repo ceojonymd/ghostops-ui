@@ -54,11 +54,11 @@ export const keywords = [
 ]
 
 export const teamMembers = [
-  { id: "1", name: "Sarah Chen", email: "sarah@ghostops.ai", role: "Admin", avatar: "", status: "active", lastActive: new Date(Date.now() - 300000) },
-  { id: "2", name: "Mike Johnson", email: "mike@ghostops.ai", role: "Editor", avatar: "", status: "active", lastActive: new Date(Date.now() - 1800000) },
-  { id: "3", name: "Emma Wilson", email: "emma@ghostops.ai", role: "Author", avatar: "", status: "active", lastActive: new Date(Date.now() - 7200000) },
-  { id: "4", name: "Alex Rivera", email: "alex@ghostops.ai", role: "Author", avatar: "", status: "away", lastActive: new Date(Date.now() - 86400000) },
-  { id: "5", name: "Jordan Lee", email: "jordan@ghostops.ai", role: "Viewer", avatar: "", status: "offline", lastActive: new Date(Date.now() - 172800000) },
+  { id: "1", name: "Sarah Chen", email: "sarah@inkfleet.com", role: "Admin", avatar: "", status: "active", lastActive: new Date(Date.now() - 300000) },
+  { id: "2", name: "Mike Johnson", email: "mike@inkfleet.com", role: "Editor", avatar: "", status: "active", lastActive: new Date(Date.now() - 1800000) },
+  { id: "3", name: "Emma Wilson", email: "emma@inkfleet.com", role: "Author", avatar: "", status: "active", lastActive: new Date(Date.now() - 7200000) },
+  { id: "4", name: "Alex Rivera", email: "alex@inkfleet.com", role: "Author", avatar: "", status: "away", lastActive: new Date(Date.now() - 86400000) },
+  { id: "5", name: "Jordan Lee", email: "jordan@inkfleet.com", role: "Viewer", avatar: "", status: "offline", lastActive: new Date(Date.now() - 172800000) },
 ]
 
 export const notifications = [

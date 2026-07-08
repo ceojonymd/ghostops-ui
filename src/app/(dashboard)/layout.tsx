@@ -22,14 +22,14 @@ export default function DashboardLayout({
   const isDesktop = useMediaQuery("(min-width: 768px)")
 
   useEffect(() => {
-    const stored = localStorage.getItem("ghostops-sidebar-collapsed")
+    const stored = localStorage.getItem("inkfleet-sidebar-collapsed")
     if (stored !== null) {
       setCollapsed(JSON.parse(stored))
     }
   }, [])
 
   useEffect(() => {
-    localStorage.setItem("ghostops-sidebar-collapsed", JSON.stringify(collapsed))
+    localStorage.setItem("inkfleet-sidebar-collapsed", JSON.stringify(collapsed))
   }, [collapsed])
 
   const handleToggle = () => {

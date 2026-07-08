@@ -317,7 +317,7 @@ export default function TeamsPage() {
               Invite Member
             </DialogTitle>
             <DialogDescription className="text-zinc-500">
-              Send an invitation to join your GhostOps team.
+              Send an invitation to join your InkFleet team.
             </DialogDescription>
           </DialogHeader>
 

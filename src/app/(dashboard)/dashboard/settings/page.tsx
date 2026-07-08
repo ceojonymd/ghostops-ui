@@ -278,7 +278,7 @@ export default function SettingsPage() {
                       <Label htmlFor="workspace-name">Workspace Name</Label>
                       <Input
                         id="workspace-name"
-                        defaultValue="GhostOps Workspace"
+                        defaultValue="InkFleet Workspace"
                         className="max-w-md"
                       />
                     </div>
@@ -287,7 +287,7 @@ export default function SettingsPage() {
                       <Label htmlFor="workspace-url">Workspace URL</Label>
                       <div className="flex max-w-md">
                         <span className="inline-flex items-center rounded-l-md border border-r-0 border-input bg-muted px-3 text-sm text-muted-foreground">
-                          ghostops.ai/
+                          inkfleet.com/
                         </span>
                         <Input
                           id="workspace-url"
@@ -422,7 +422,7 @@ export default function SettingsPage() {
                       <Label htmlFor="brand-name">Brand Name</Label>
                       <Input
                         id="brand-name"
-                        defaultValue="GhostOps"
+                        defaultValue="InkFleet"
                         className="max-w-md"
                       />
                     </div>

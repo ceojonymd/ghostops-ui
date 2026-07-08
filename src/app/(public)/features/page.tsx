@@ -127,7 +127,7 @@ const features = [
     title: "API & Integrations",
     tagline: "Build custom solutions with our powerful API",
     description:
-      "Full REST and GraphQL API access for custom integrations. Connect GhostOps with your existing tech stack and build custom workflows tailored to your business.",
+      "Full REST and GraphQL API access for custom integrations. Connect InkFleet with your existing tech stack and build custom workflows tailored to your business.",
     bullets: [
       "REST & GraphQL API",
       "Webhooks for real-time events",

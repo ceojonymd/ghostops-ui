@@ -17,7 +17,7 @@ export default function IntegrationsPage() {
           Integrations
         </h1>
         <p className="text-zinc-400 text-lg leading-relaxed">
-          Connect GhostOps with the tools you already use. Our platform integrates seamlessly with popular CMS platforms, social media networks, analytics tools, and more to streamline your content workflow.
+          Connect InkFleet with the tools you already use. Our platform integrates seamlessly with popular CMS platforms, social media networks, analytics tools, and more to streamline your content workflow.
         </p>
         <div className="pt-4">
           <Link

@@ -83,7 +83,7 @@ function Section({
     <motion.section
       ref={ref}
       id={id}
-      initial={{ opacity: 0, y: 40 }}
+      initial={{ opacity: 1, y: 0 }}
       animate={inView ? { opacity: 1, y: 0 } : {}}
       transition={{ duration: 0.7, ease: "easeOut" }}
       className={cn("relative w-full", className)}
@@ -263,7 +263,7 @@ const stagger = {
 }
 
 const fadeUp = {
-  hidden: { opacity: 0, y: 30 },
+  hidden: { opacity: 1, y: 0 },
   visible: { opacity: 1, y: 0, transition: { duration: 0.5, ease: "easeOut" } },
 }
 
@@ -338,7 +338,7 @@ export default function LandingPage() {
 
           {/* Floating UI mockup cards */}
           <motion.div
-            initial={{ opacity: 0, scale: 0.92 }}
+            initial={{ opacity: 1, scale: 1 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ delay: 0.4, duration: 0.8, ease: "easeOut" }}
             className="relative hidden lg:block"
@@ -485,7 +485,7 @@ export default function LandingPage() {
           </div>
 
           <motion.div
-            initial={{ opacity: 0, scale: 0.95 }}
+            initial={{ opacity: 1, scale: 1 }}
             whileInView={{ opacity: 1, scale: 1 }}
             viewport={{ once: true, margin: "-80px" }}
             transition={{ duration: 0.6, ease: "easeOut" }}
@@ -540,7 +540,7 @@ export default function LandingPage() {
 
           {/* Setup time stat */}
           <motion.div
-            initial={{ opacity: 0, y: 20 }}
+            initial={{ opacity: 1, y: 0 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.5, delay: 0.2 }}
@@ -614,7 +614,7 @@ export default function LandingPage() {
           </motion.div>
 
           <motion.p
-            initial={{ opacity: 0 }}
+            initial={{ opacity: 1 }}
             whileInView={{ opacity: 1 }}
             viewport={{ once: true }}
             transition={{ delay: 0.4 }}
@@ -778,7 +778,7 @@ export default function LandingPage() {
               <AnimatePresence>
                 {isYearly && (
                   <motion.div
-                    initial={{ opacity: 0, scale: 0.8, x: -10 }}
+                    initial={{ opacity: 1, scale: 1, x: 0 }}
                     animate={{ opacity: 1, scale: 1, x: 0 }}
                     exit={{ opacity: 0, scale: 0.8, x: -10 }}
                     transition={{ duration: 0.25 }}

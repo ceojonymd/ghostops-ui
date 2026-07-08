@@ -38,7 +38,7 @@ import {
   HelpCircle,
   ChevronLeft,
   ChevronRight,
-  Ghost,
+  Feather,
 } from "lucide-react"
 import type { LucideIcon } from "lucide-react"
 
@@ -100,7 +100,7 @@ export function Sidebar({ collapsed, onToggle }: SidebarProps) {
                 collapsed ? "h-9 w-9" : "h-10 w-10"
               )}
             >
-              <Ghost
+              <Feather
                 className={cn(
                   "text-primary transition-transform duration-300",
                   "group-hover:scale-110",
@@ -117,7 +117,7 @@ export function Sidebar({ collapsed, onToggle }: SidebarProps) {
                   transition={{ duration: 0.2, ease: "easeOut" }}
                   className="gradient-text text-xl font-bold tracking-tight"
                 >
-                  GhostOps
+                  InkFleet
                 </motion.span>
               )}
             </AnimatePresence>

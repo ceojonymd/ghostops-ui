@@ -17,7 +17,7 @@ export default function SecurityPage() {
           Security
         </h1>
         <p className="text-zinc-400 text-lg leading-relaxed">
-          GhostOps takes security seriously. We implement industry-standard encryption, regular security audits, and comprehensive data protection measures to ensure your content and account information remain safe.
+          InkFleet takes security seriously. We implement industry-standard encryption, regular security audits, and comprehensive data protection measures to ensure your content and account information remain safe.
         </p>
         <div className="pt-4">
           <Link

@@ -17,7 +17,7 @@ export default function PrivacyPolicyPage() {
           Privacy Policy
         </h1>
         <p className="text-zinc-400 text-lg leading-relaxed">
-          Your privacy matters to us. This page outlines how GhostOps collects, uses, and protects your personal information. We are committed to maintaining the confidentiality and security of all user data processed through our platform.
+          Your privacy matters to us. This page outlines how InkFleet collects, uses, and protects your personal information. We are committed to maintaining the confidentiality and security of all user data processed through our platform.
         </p>
         <div className="pt-4">
           <Link

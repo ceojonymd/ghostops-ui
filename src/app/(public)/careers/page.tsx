@@ -17,7 +17,7 @@ export default function CareersPage() {
           Careers
         </h1>
         <p className="text-zinc-400 text-lg leading-relaxed">
-          Join the GhostOps team and help shape the future of AI-powered content creation. We are always looking for talented individuals who are passionate about artificial intelligence, content, and building great products.
+          Join the InkFleet team and help shape the future of AI-powered content creation. We are always looking for talented individuals who are passionate about artificial intelligence, content, and building great products.
         </p>
         <div className="pt-4">
           <Link

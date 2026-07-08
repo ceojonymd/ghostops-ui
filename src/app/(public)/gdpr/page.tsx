@@ -17,7 +17,7 @@ export default function GDPRCompliancePage() {
           GDPR Compliance
         </h1>
         <p className="text-zinc-400 text-lg leading-relaxed">
-          GhostOps is fully committed to GDPR compliance. This page details our data processing practices, your rights as a data subject, and how we ensure compliance with European data protection regulations.
+          InkFleet is fully committed to GDPR compliance. This page details our data processing practices, your rights as a data subject, and how we ensure compliance with European data protection regulations.
         </p>
         <div className="pt-4">
           <Link

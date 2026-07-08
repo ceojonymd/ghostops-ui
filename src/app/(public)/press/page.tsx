@@ -17,7 +17,7 @@ export default function PressPage() {
           Press
         </h1>
         <p className="text-zinc-400 text-lg leading-relaxed">
-          Find the latest news, press releases, and media resources about GhostOps. For press inquiries, please reach out to our communications team. We are happy to provide interviews, product information, and brand assets.
+          Find the latest news, press releases, and media resources about InkFleet. For press inquiries, please reach out to our communications team. We are happy to provide interviews, product information, and brand assets.
         </p>
         <div className="pt-4">
           <Link

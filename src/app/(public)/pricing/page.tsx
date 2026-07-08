@@ -37,7 +37,7 @@ const faqs = [
   {
     question: "What platforms can I publish to?",
     answer:
-      "GhostOps supports publishing to WordPress, Medium, Shopify, Ghost, Webflow, HubSpot, and 20+ other platforms. We're constantly adding new integrations.",
+      "InkFleet supports publishing to WordPress, Medium, Shopify, Ghost, Webflow, HubSpot, and 20+ other platforms. We're constantly adding new integrations.",
   },
 ]
 

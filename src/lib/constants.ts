@@ -1,6 +1,6 @@
-export const APP_NAME = "GhostOps"
+export const APP_NAME = "InkFleet"
 export const APP_DESCRIPTION = "AI-First Publishing Platform"
-export const APP_URL = "https://ghostops.ai"
+export const APP_URL = "https://inkfleet.com"
 
 export const PLANS = [
   { name: "Starter", price: 29, yearlyPrice: 23, features: ["5 AI articles/month", "Basic SEO tools", "1 team member", "5GB storage", "Email support"], popular: false },

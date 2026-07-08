@@ -102,3 +102,29 @@
   -webkit-text-fill-color: transparent;
   background-clip: text;
 }
+
+/* ── InkFleet: Ensure visibility on static export ─────────────── */
+/* Framer-motion sets inline opacity:0 during SSR. If client-side */
+/* JS doesn't animate them, this CSS animation kicks in after 1s  */
+/* and reveals all content.                                        */
+
+@keyframes __inkfleet_reveal {
+  from { opacity: 0; }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* Target common elements that framer-motion hides */
+header[style*="opacity"],
+section[style*="opacity"],
+main [style*="opacity"] {
+  animation: __inkfleet_reveal 0.4s ease 1.2s both;
+}
+
+/* Nuclear fallback: after 2s, force everything visible */
+@keyframes __inkfleet_force {
+  to { opacity: 1 !important; transform: none !important; }
+}
+
+body.loaded [style*="opacity: 0"] {
+  animation: __inkfleet_force 0.01s ease forwards !important;
+}

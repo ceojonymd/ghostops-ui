@@ -17,7 +17,7 @@ export default function AboutUsPage() {
           About Us
         </h1>
         <p className="text-zinc-400 text-lg leading-relaxed">
-          GhostOps is the AI-first publishing platform that helps content creators, marketers, and businesses produce high-quality content at scale. Our mission is to make professional content creation accessible to everyone through cutting-edge artificial intelligence.
+          InkFleet is the AI-first publishing platform that helps content creators, marketers, and businesses produce high-quality content at scale. Our mission is to make professional content creation accessible to everyone through cutting-edge artificial intelligence.
         </p>
         <div className="pt-4">
           <Link

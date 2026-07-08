@@ -40,7 +40,7 @@ const blogPosts = [
     id: 3,
     title: "The Product Manager's Guide to AI-Powered Workflows",
     excerpt:
-      "How product teams can leverage GhostOps to automate repetitive tasks, improve decision-making, and ship faster without sacrificing quality.",
+      "How product teams can leverage InkFleet to automate repetitive tasks, improve decision-making, and ship faster without sacrificing quality.",
     author: "Priya Patel",
     authorInitials: "PP",
     date: "Jun 20, 2026",
@@ -98,7 +98,7 @@ const blogPosts = [
   },
   {
     id: 8,
-    title: "Launching GhostOps Enterprise: What We Learned About B2B Sales",
+    title: "Launching InkFleet Enterprise: What We Learned About B2B Sales",
     excerpt:
       "The transition from developer tool to enterprise platform taught us hard lessons about sales cycles, procurement, and building for compliance.",
     author: "David Kim",
@@ -163,7 +163,7 @@ export default function BlogPage() {
             transition={{ duration: 0.5 }}
             className="text-4xl md:text-6xl font-bold mb-4"
           >
-            GhostOps{" "}
+            InkFleet{" "}
             <span className="bg-gradient-to-r from-violet-400 to-purple-400 bg-clip-text text-transparent">
               Blog
             </span>

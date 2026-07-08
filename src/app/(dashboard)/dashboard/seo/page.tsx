@@ -72,32 +72,32 @@ const itemVariants = {
 
 const serpResults = [
   {
-    title: "10 Best AI Writing Tools for 2025 - GhostOps Blog",
-    url: "https://ghostops.ai/blog/ai-writing-tools",
+    title: "10 Best AI Writing Tools for 2025 - InkFleet Blog",
+    url: "https://inkfleet.com/blog/ai-writing-tools",
     description:
       "Discover the top AI writing tools that will transform your content creation workflow. We tested 50+ tools and ranked the best options for bloggers, marketers, and businesses.",
   },
   {
     title: "Complete Guide to SEO in 2025: Rankings, Traffic & Beyond",
-    url: "https://ghostops.ai/blog/seo-guide-2025",
+    url: "https://inkfleet.com/blog/seo-guide-2025",
     description:
       "Master modern SEO with our comprehensive guide. Learn keyword research, on-page optimization, technical SEO, link building strategies, and how to leverage AI for better rankings.",
   },
   {
     title: "How to Start a Profitable Blog in 2025 (Step-by-Step)",
-    url: "https://ghostops.ai/blog/start-a-blog",
+    url: "https://inkfleet.com/blog/start-a-blog",
     description:
       "Start your blogging journey the right way. From choosing a niche and domain to monetization strategies, this guide covers everything you need to build a profitable blog.",
   },
   {
     title: "Content Marketing Strategy: The Ultimate Playbook",
-    url: "https://ghostops.ai/blog/content-marketing-strategy",
+    url: "https://inkfleet.com/blog/content-marketing-strategy",
     description:
       "Build a content marketing strategy that drives results. Learn how to plan, create, distribute, and measure content that attracts and converts your target audience.",
   },
   {
     title: "Affiliate Marketing for Beginners: Earn Your First $1,000",
-    url: "https://ghostops.ai/blog/affiliate-marketing-beginners",
+    url: "https://inkfleet.com/blog/affiliate-marketing-beginners",
     description:
       "Learn affiliate marketing from scratch. This beginner-friendly guide walks you through choosing programs, creating content, driving traffic, and earning commissions.",
   },
@@ -162,18 +162,18 @@ const sampleSchema = JSON.stringify(
     },
     publisher: {
       "@type": "Organization",
-      name: "GhostOps",
+      name: "InkFleet",
       logo: {
         "@type": "ImageObject",
-        url: "https://ghostops.ai/logo.png",
+        url: "https://inkfleet.com/logo.png",
       },
     },
     datePublished: "2025-01-15",
     dateModified: "2025-06-20",
-    image: "https://ghostops.ai/images/ai-writing-tools.jpg",
+    image: "https://inkfleet.com/images/ai-writing-tools.jpg",
     mainEntityOfPage: {
       "@type": "WebPage",
-      "@id": "https://ghostops.ai/blog/ai-writing-tools",
+      "@id": "https://inkfleet.com/blog/ai-writing-tools",
     },
   },
   null,

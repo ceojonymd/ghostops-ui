@@ -401,7 +401,7 @@ export default function EmailMarketingPage() {
                       <Send className="h-4 w-4 text-white" />
                     </div>
                     <span className="text-xl font-bold text-white tracking-wide">
-                      GhostOps
+                      InkFleet
                     </span>
                   </div>
                   <p className="text-violet-100 text-sm mt-1">
@@ -455,7 +455,7 @@ export default function EmailMarketingPage() {
                     </div>
                   </div>
                   <p className="text-[11px] text-muted-foreground text-center leading-relaxed">
-                    GhostOps Inc. &middot; 123 Innovation Drive, San Francisco, CA 94105
+                    InkFleet Inc. &middot; 123 Innovation Drive, San Francisco, CA 94105
                   </p>
                   <p className="text-[11px] text-center mt-1.5">
                     <span className="text-violet-600 hover:underline cursor-pointer">

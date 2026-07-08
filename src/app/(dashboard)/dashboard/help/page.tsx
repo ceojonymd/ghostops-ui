@@ -76,7 +76,7 @@ const quickLinks = [
     icon: Code,
     title: "API Documentation",
     description:
-      "Integrate GhostOps with your apps using our REST API",
+      "Integrate InkFleet with your apps using our REST API",
     bgColor: "bg-rose-100 dark:bg-rose-900/40",
     iconColor: "text-rose-600 dark:text-rose-400",
   },
@@ -127,9 +127,9 @@ const popularArticles = [
 
 const faqItems = [
   {
-    question: "What AI models does GhostOps use?",
+    question: "What AI models does InkFleet use?",
     answer:
-      "GhostOps integrates with multiple AI providers including OpenAI's GPT-4, Anthropic's Claude, and custom fine-tuned models. You can choose your preferred model in Settings.",
+      "InkFleet integrates with multiple AI providers including OpenAI's GPT-4, Anthropic's Claude, and custom fine-tuned models. You can choose your preferred model in Settings.",
   },
   {
     question: "How does the SEO scoring work?",
@@ -304,7 +304,7 @@ export default function HelpPage() {
             </CardHeader>
             <CardContent className="space-y-3">
               <p className="text-sm font-medium text-foreground">
-                support@ghostops.ai
+                support@inkfleet.com
               </p>
               <p className="text-xs text-muted-foreground">
                 Response within 24 hours

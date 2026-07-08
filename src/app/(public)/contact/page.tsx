@@ -50,9 +50,9 @@ function AccordionItem({
 
 const faqs = [
   {
-    question: "What is GhostOps and how does it work?",
+    question: "What is InkFleet and how does it work?",
     answer:
-      "GhostOps is an AI-powered autonomous operations platform that deploys intelligent agents to handle complex workflows. Our agents integrate with your existing tools and systems, learning your processes to automate repetitive tasks while keeping humans in the loop for critical decisions.",
+      "InkFleet is an AI-powered autonomous operations platform that deploys intelligent agents to handle complex workflows. Our agents integrate with your existing tools and systems, learning your processes to automate repetitive tasks while keeping humans in the loop for critical decisions.",
   },
   {
     question: "How long does it take to get started?",
@@ -60,14 +60,14 @@ const faqs = [
       "Most teams are up and running within 24 hours. Our onboarding process includes a guided setup wizard, pre-built templates for common workflows, and dedicated support to help you configure your first AI agents. Enterprise deployments with custom integrations typically take 1-2 weeks.",
   },
   {
-    question: "Is my data secure with GhostOps?",
+    question: "Is my data secure with InkFleet?",
     answer:
       "Absolutely. We are SOC 2 Type II certified and GDPR compliant. All data is encrypted at rest and in transit using AES-256 encryption. We offer data residency options, role-based access controls, and complete audit logging. Enterprise plans include dedicated infrastructure and custom security configurations.",
   },
   {
-    question: "Can I integrate GhostOps with my existing tools?",
+    question: "Can I integrate InkFleet with my existing tools?",
     answer:
-      "Yes, GhostOps integrates with 200+ popular tools out of the box, including Slack, Jira, GitHub, Salesforce, HubSpot, and many more. We also provide a robust API and webhook system for custom integrations. Our marketplace features community-built connectors for niche tools.",
+      "Yes, InkFleet integrates with 200+ popular tools out of the box, including Slack, Jira, GitHub, Salesforce, HubSpot, and many more. We also provide a robust API and webhook system for custom integrations. Our marketplace features community-built connectors for niche tools.",
   },
   {
     question: "What kind of support do you offer?",
@@ -77,10 +77,10 @@ const faqs = [
 ];
 
 const socialLinks = [
-  { name: "Twitter", href: "https://twitter.com/ghostops", icon: "𝕏" },
-  { name: "GitHub", href: "https://github.com/ghostops", icon: "GH" },
-  { name: "LinkedIn", href: "https://linkedin.com/company/ghostops", icon: "in" },
-  { name: "YouTube", href: "https://youtube.com/@ghostops", icon: "YT" },
+  { name: "Twitter", href: "https://twitter.com/inkfleet", icon: "𝕏" },
+  { name: "GitHub", href: "https://github.com/mdjonyrd", icon: "GH" },
+  { name: "LinkedIn", href: "https://linkedin.com/company/inkfleet", icon: "in" },
+  { name: "YouTube", href: "https://youtube.com/@inkfleet", icon: "YT" },
 ];
 
 const subjects = [
@@ -276,10 +276,10 @@ export default function ContactPage() {
                   <div>
                     <p className="text-sm font-medium text-zinc-300">Email</p>
                     <a
-                      href="mailto:support@ghostops.ai"
+                      href="mailto:support@inkfleet.com"
                       className="text-sm text-violet-400 hover:text-violet-300 transition-colors"
                     >
-                      support@ghostops.ai
+                      support@inkfleet.com
                     </a>
                   </div>
                 </div>
@@ -366,7 +366,7 @@ export default function ContactPage() {
             </span>
           </h2>
           <p className="text-zinc-500 text-center mb-10">
-            Quick answers to common questions about GhostOps.
+            Quick answers to common questions about InkFleet.
           </p>
 
           <Card className="bg-zinc-900/50 border-zinc-800">

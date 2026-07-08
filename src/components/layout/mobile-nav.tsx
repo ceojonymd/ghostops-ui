@@ -14,7 +14,7 @@ import {
   BarChart3,
   Menu,
   X,
-  Ghost,
+  Feather,
   Search,
   Target,
   Image,
@@ -170,11 +170,11 @@ export function MobileNav() {
               <div className="flex items-center justify-between px-6 py-5 border-b border-border/50">
                 <div className="flex items-center gap-3">
                   <div className="h-9 w-9 rounded-xl bg-primary/10 flex items-center justify-center">
-                    <Ghost className="h-5 w-5 text-primary" />
+                    <Feather className="h-5 w-5 text-primary" />
                   </div>
                   <div>
                     <h2 className="text-base font-semibold tracking-tight">
-                      GhostOps
+                      InkFleet
                     </h2>
                     <p className="text-xs text-muted-foreground">
                       Navigation
